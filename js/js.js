@@ -83,7 +83,12 @@ jQuery(document).ready(function ($) {
 		$(".navigation").slideToggle("slow");
 	});
 	
-	
+	//prettyPhoto
+	$("a[rel^='prettyPhoto']").prettyPhoto({
+			animationSpeed: 'normal', /* fast/slow/normal */
+			opacity: 0.80, /* Value between 0 and 1 */
+			showTitle: true /* true/false */
+		});
 	//Twitter Setup
 	$(".tweet_block").tweet({
 	  join_text: "auto",

@@ -83,8 +83,6 @@ jQuery(document).ready(function ($) {
 		$(".navigation").slideToggle("slow");
 	});
 	
-	//prettyPhoto
-	$("a[rel^='prettyPhoto']").prettyPhoto();
 	
 	//Twitter Setup
 	$(".tweet_block").tweet({

@@ -1,4 +1,5 @@
 function sliderHeight(){
+		
 	wh = $(window).height();
 	$('#slide1').css({height:wh});
 	
@@ -84,11 +85,8 @@ jQuery(document).ready(function ($) {
 	});
 	
 	//prettyPhoto
-	$("a[rel^='prettyPhoto']").prettyPhoto({
-			animationSpeed: 'normal', /* fast/slow/normal */
-			opacity: 0.80, /* Value between 0 and 1 */
-			showTitle: true /* true/false */
-		});
+	$("a[rel^='prettyPhoto']").prettyPhoto();
+	
 	//Twitter Setup
 	$(".tweet_block").tweet({
 	  join_text: "auto",

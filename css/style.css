@@ -101,24 +101,17 @@ ul.navigation {
 	transition: 0.5s ease-in-out;
 }
 .navigation li:nth-child(1):hover ~ .effect {
-	left: 0; /* середина первого <a> */
+	left: 128px; 
 }
 .navigation li:nth-child(2):hover ~ .effect {
-	left: 128px;  /* середина второго <a> */
+	left: 256px;  
 }
 .navigation li:nth-child(3):hover ~ .effect {
-	left: 256px; /* середина третьего <a> */
+	left: 384px; 
 }
 .navigation li:nth-child(4):hover ~ .effect {
-	left: 384px; /* середина четвертого <a> */
+	left: 512px; 
 }
-.navigation li:nth-child(5):hover ~ .effect {
-	left: 512px; /* середина четвертого <a> */
-}
-.navigation li:nth-child(6):hover ~ .effect {
-	left: 640px; /* середина четвертого <a> */
-}
-
 .ph-line-nav .effect {
 	position:relative;
 	z-index:100;
@@ -379,24 +372,6 @@ ul.tweets li a:hover {text-decoration:underline;
 
 /* ______________________ end tweets _________________________ */
 
-/* ___________________________________ //Slide 2 ___________________________________ */ 
-
-
-
-
-
-/* ____________________________________ Slide 4 ____________________________________ */ 
-
-#slide4 {
-	background:url(../images/slide4_bg.jpg) repeat left top;
-	width:100%;
-	padding:86px 0 69px;
-}
-#slide4 h2 {
-	color:#b8b8b8;
-	border-bottom:1px solid #3b3b3b;
-}
-
 
 /* ____________ SERVICES_BLOCK ___________ */
 a.servc_block {
@@ -457,25 +432,6 @@ a.servc_block {
 .servc_block:hover p {
 	color:#f14833;
 	transition-delay: 0.7s;
-}
-
-
-/* ____________ SERVICES_BLOCK ___________ */
-
-/* ___________________________________ //Slide 4 ___________________________________ */ 
-
-
-
-
-/* ____________________________________ Slide 6 ____________________________________ */ 
-
-#slide6 {
-	background:url(../images/slide6_bg.jpg) repeat left top;
-	width:100%;
-	padding:86px 0 69px;
-}
-
-#slide6 h2 {color:#222;
 }
 
 /* ____________________ exhib_block ____________________ */
